@@ -1,18 +1,16 @@
-import React from "react"
+import React from 'react'
 
 export default function RootLayout({
-      children,
+  children,
 }: {
-  children: React.ReactNode;
+  children: React.ReactNode
 }) {
   return (
-    <html lang="en">
+    <html lang='en'>
       <head>
-        <title>Next.js App Layout Example</title>
+        <title>DilicalFlame</title>
       </head>
-      <body>
-        {children}
-      </body>
+      <body>{children}</body>
     </html>
-  );
-                                   }
+  )
+}
